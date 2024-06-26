@@ -1,8 +1,8 @@
 import os
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+API_ID = int(os.environ.get("API_ID", "25078409"))
+API_HASH = os.environ.get("API_HASH", "ad39f0dc0b992055e9e42d8372d22b53")
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
 AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
 DB_URL = os.environ.get("DB_URL", "")
